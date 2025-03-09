@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Github } from "lucide-react";
+// import { Github } from "lucide-react";
 import Image from "next/image";
 
 const projects = [
@@ -393,13 +393,6 @@ export function ProjectsSection() {
                       </Badge>
                     ))}
                   </div>
-                  {/* <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tags.map((tag, tagIndex) => (
-                      <Badge key={tagIndex} variant="outline">
-                        {tag}
-                      </Badge>
-                    ))}
-                  </div> */}
                   <div className="flex gap-4">
                     <Button
                       variant="outline"
@@ -407,7 +400,7 @@ export function ProjectsSection() {
                       className="gap-2"
                       asChild
                     >
-                      <Github className="h-4 w-4" />
+                      {/* <Github className="h-4 w-4" /> */}
                       Code
                     </Button>
                   </div>
