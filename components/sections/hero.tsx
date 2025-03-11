@@ -52,7 +52,7 @@ export function HeroSection() {
               AI & Data Science
             </span>
             <br />
-            Portfolio
+            Engineer
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-white max-w-2xl mb-6 md:mb-8">
             Transforming complex data into actionable insights through AI and
