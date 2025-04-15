@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Kostantin Semeniv - AI & Data Science Portfolio",
+  title: "Kyrylo Vakulenko - AI & Data Science Portfolio",
   description:
     "AI and Data Science Portfolio showcasing machine learning projects and technical expertise",
   icons: {
