@@ -73,7 +73,7 @@ export function Header() {
                 handleNavClick("#home");
               }}
             >
-              Kostantin Semeniv
+              Kyrylo Vakulenko
             </Link>
           </motion.div>
 

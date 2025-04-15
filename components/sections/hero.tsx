@@ -82,25 +82,6 @@ export function HeroSection() {
             </motion.a>
           </div>
         </motion.div>
-
-        {/* Profile Image (Right Side) */}
-        <motion.div
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          style={{ scale: imageScale }}
-          className="order-1 md:order-2 w-full md:w-1/2 flex justify-center md:justify-end"
-        >
-          <div className="relative w-48 h-64 sm:w-60 sm:h-80 md:w-[400px] md:h-[600px] lg:w-[550px] lg:h-[700px] xl:w-[600px] xl:h-[800px]">
-            <Image
-              src="/images/profile.png"
-              alt="Profile"
-              fill
-              className="object-contain z-10 rounded-lg filter grayscale-[0%] contrast-[110%] brightness-[100%] max-w-full h-auto"
-              priority
-            />
-          </div>
-        </motion.div>
       </div>
 
       {/* Scroll Indicator */}

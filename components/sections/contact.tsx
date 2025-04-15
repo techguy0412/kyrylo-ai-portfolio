@@ -47,7 +47,7 @@ export function ContactSection() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-center mt-12 text-muted-foreground"
         >
-          <p>Based in Zaporizka, Ukraine• Available for Remote Work</p>
+          <p>Based in Mykolaiv, Ukraine• Available for Remote Work</p>
         </motion.div>
       </div>
     </section>
