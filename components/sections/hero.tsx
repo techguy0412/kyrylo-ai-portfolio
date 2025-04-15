@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ChevronDown, ArrowRight, User } from "lucide-react";
 
@@ -14,7 +14,7 @@ export function HeroSection() {
 
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
-  const imageScale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
+  // const imageScale = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
 
   return (
     <section
